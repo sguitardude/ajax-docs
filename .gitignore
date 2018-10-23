@@ -15,6 +15,7 @@
 /favicon.ico
 /fonts/
 /styles/
+.asset-cache/
 _site
 bs-config.js
 build-docs.sh
