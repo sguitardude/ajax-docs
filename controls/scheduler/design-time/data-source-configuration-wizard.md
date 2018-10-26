@@ -18,7 +18,7 @@ The Data Source Configuration Wizard helps you bind a **RadScheduler** control t
 
 * Bring up the **RadScheduler** [Smart Tag]({%slug scheduler/design-time/smart-tag%}) and click on **Choose Data Source ...**
 
->note Clicking on the **DataSourceID** property of the scheduler does not start the scheduler'sData Source Configuration Wizard, only the standard Microsoft Data Source Configuration Wizard. If you choose to bind yourscheduler this way, you will need to enter the field bindings separately.
+>note Clicking on the **DataSourceID** property of the scheduler does not start the scheduler's Data Source Configuration Wizard, only the standard Microsoft Data Source Configuration Wizard. If you choose to bind your scheduler this way, you will need to enter the field bindings separately.
 >
 
 
@@ -28,21 +28,21 @@ The Data Source Configuration Wizard helps you bind a **RadScheduler** control t
 
 1. Once you have selected a data source, you must specify the fields that the **RadScheduler**uses to represent aspects of an appointment.
 
-	* The **Key field** is a unique identifier of the record for a specificappointment. This field is required.
+	* The **Key field** is a unique identifier of the record for a specific appointment. This field is required.
 
-	* The **Start Time field** holds the starting time of the appointment.This field is required.
+	* The **Start Time field** holds the starting time of the appointment.  This field is required.
 
-	* The **End Time field** holds the ending time of the appointment.This field is required.
+	* The **End Time field** holds the ending time of the appointment.  This field is required.
 
-	* The **Subject field** holds the subject of the appointment.This field is required.
+	* The **Subject field** holds the subject of the appointment.  This field is required.
 
-	* The **Description field** holds the description of the appointment.As this field is optional by default it is not enabled. To enable it you need to set the *EnableDescriptionField="true"**.
+	* The **Description field** holds the description of the appointment.  As this field is optional by default it is not enabled. To enable it you need to set the *EnableDescriptionField="true"**.
 
-	* The **Reminder field** holds a string that encodes information about the reminders of the appointments.This field is only needed if you want to allow reminders by **Reminders-Enabled="true"**. For more information see [Reminders Overview]({%slug scheduler/reminders/overview%})
+	* The **Reminder field** holds a string that encodes information about the reminders of the appointments.  This field is only needed if you want to allow reminders by **Reminders-Enabled="true"**. For more information see [Reminders Overview]({%slug scheduler/reminders/overview%})
 
-	* The **Recurrence Storage field** holds a string that encodes information about the recurrence of the appointment (its frequency, and how long the recurrence persists). This field is only needed if you want to allowrecurring appointments. If you do allow recurring appointments, you must also set the Recurrence Parent Key field.
+	* The **Recurrence Storage field** holds a string that encodes information about the recurrence of the appointment (its frequency, and how long the recurrence persists). This field is only needed if you want to allow recurring appointments. If you do allow recurring appointments, you must also set the Recurrence Parent Key field.
 
-	* The **Recurrence Parent Key field** is used when the user edits a single occurrence of a recurringappointment. It holds the key field for the recurring appointment definition of which the single occurrence is a member.
+	* The **Recurrence Parent Key field** is used when the user edits a single occurrence of a recurring appointment. It holds the key field for the recurring appointment definition of which the single occurrence is a member.
 
 		![Data Source Configuration](images/scheduler_datasourceconfiguration.png)
 
